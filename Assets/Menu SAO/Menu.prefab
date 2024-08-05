@@ -1011,19 +1011,19 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3017072498580246911, guid: e2db9a520ebb7594399cba3923c03b5e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 144850024336202438}
-    - targetCorrespondingSourceObject: {fileID: 3017072498580246911, guid: e2db9a520ebb7594399cba3923c03b5e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7211206782674037684}
-    - targetCorrespondingSourceObject: {fileID: 3017072498580246911, guid: e2db9a520ebb7594399cba3923c03b5e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4593650390600439721}
+      addedObject: {fileID: 2298868662818152215}
     - targetCorrespondingSourceObject: {fileID: 3017072498580246911, guid: e2db9a520ebb7594399cba3923c03b5e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5100578388928152480}
     - targetCorrespondingSourceObject: {fileID: 3017072498580246911, guid: e2db9a520ebb7594399cba3923c03b5e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2298868662818152215}
+      addedObject: {fileID: 4593650390600439721}
+    - targetCorrespondingSourceObject: {fileID: 3017072498580246911, guid: e2db9a520ebb7594399cba3923c03b5e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7211206782674037684}
+    - targetCorrespondingSourceObject: {fileID: 3017072498580246911, guid: e2db9a520ebb7594399cba3923c03b5e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 144850024336202438}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9131433151156474273, guid: e2db9a520ebb7594399cba3923c03b5e, type: 3}
       insertIndex: -1
@@ -1094,7 +1094,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2501099401223973406, guid: 9417d2f4740c1fc498e6a868d0fde409, type: 3}
       propertyPath: m_Name
-      value: BotP
+      value: BotP 5
       objectReference: {fileID: 0}
     - target: {fileID: 2809735508271211070, guid: 9417d2f4740c1fc498e6a868d0fde409, type: 3}
       propertyPath: m_Pivot.x
@@ -1200,7 +1200,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2501099401223973406, guid: 9417d2f4740c1fc498e6a868d0fde409, type: 3}
       propertyPath: m_Name
-      value: BotP 5
+      value: BotP
       objectReference: {fileID: 0}
     - target: {fileID: 2501099401223973406, guid: 9417d2f4740c1fc498e6a868d0fde409, type: 3}
       propertyPath: m_IsActive
@@ -1337,7 +1337,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2501099401223973406, guid: 9417d2f4740c1fc498e6a868d0fde409, type: 3}
       propertyPath: m_Name
-      value: BotP 2
+      value: BotP 4
       objectReference: {fileID: 0}
     - target: {fileID: 2501099401223973406, guid: 9417d2f4740c1fc498e6a868d0fde409, type: 3}
       propertyPath: m_IsActive
@@ -1467,7 +1467,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2501099401223973406, guid: 9417d2f4740c1fc498e6a868d0fde409, type: 3}
       propertyPath: m_Name
-      value: BotP 4
+      value: BotP 2
       objectReference: {fileID: 0}
     - target: {fileID: 2501099401223973406, guid: 9417d2f4740c1fc498e6a868d0fde409, type: 3}
       propertyPath: m_IsActive
