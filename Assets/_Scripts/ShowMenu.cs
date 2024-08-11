@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class ShowMenu : MonoBehaviour
 {
@@ -99,7 +100,7 @@ public class ShowMenu : MonoBehaviour
             PrincipalBotPs[i] = child.GetChild(i).gameObject;
         }
 
-        return PrincipalBotPs;
+        return PrincipalBotPs.Reverse().ToArray();
 
     }
 
