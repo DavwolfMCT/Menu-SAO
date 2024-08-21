@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using UnityEngine;
 
 public class MoveVerticalAnimation : MonoBehaviour
@@ -15,7 +16,38 @@ public class MoveVerticalAnimation : MonoBehaviour
     public void MoveVerticalAnimationStart()
     {
         Debug.Log("DIALOG, Start");
-        StartCoroutine(MoveVerticalCoroutine());
+        if(IsWorldMenu())
+            StartCoroutine(MoveVerticalCoroutine());
+        else
+            AlreadyOpenDialog();
+    }
+
+
+    private bool IsWorldMenu()
+    {
+        Transform currentTransform = transform;
+        
+
+        for (int i = 0; i < 4; i++)
+        {
+            if (currentTransform.parent != null)
+            {
+                currentTransform = currentTransform.parent;
+            }
+            else
+            {
+                Debug.LogWarning("NO MORE PARENTS.");
+                throw new System.Exception("Error DIALOG PAREN");
+            }
+        }
+
+        string menuTag = currentTransform.tag;
+        Debug.Log("El tag del objeto 4 niveles arriba es: " + menuTag);
+        if(menuTag == "HandMenu")
+            return false;
+        else
+            return true;
+
     }
 
 
@@ -39,5 +71,11 @@ public class MoveVerticalAnimation : MonoBehaviour
 
         rectTransformToMove.position = endPosition; // Asegúrate de que el RectTransform llegue exactamente al final
         Debug.Log("DIALOG, PosUltima: " + rectTransformToMove.position.ToString());
+    }
+
+    private void AlreadyOpenDialog()
+    {
+        RectTransform rectTransformToMove = this.gameObject.GetComponent<RectTransform>();
+        rectTransformToMove.Translate(0, distance, 0);
     }
 }
