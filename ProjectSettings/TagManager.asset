@@ -8,6 +8,7 @@ TagManager:
   - Dedo
   - HandMenu
   - WorldMenu
+  - Dialog
   layers:
   - Default
   - TransparentFX
