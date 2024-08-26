@@ -1924,7 +1924,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &223974227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8964,6 +8964,7 @@ GameObject:
   - component: {fileID: 1149371569}
   - component: {fileID: 1149371568}
   - component: {fileID: 1149371567}
+  - component: {fileID: 1149371572}
   m_Layer: 0
   m_Name: btn
   m_TagString: Untagged
@@ -9042,6 +9043,18 @@ MonoBehaviour:
       - m_Target: {fileID: 109899521}
         m_TargetAssemblyTypeName: SubMenuText, Assembly-CSharp
         m_MethodName: SelectedText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1149371572}
+        m_TargetAssemblyTypeName: SceneManagerCustom, Assembly-CSharp
+        m_MethodName: ChangeScene
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9215,6 +9228,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149371565}
   m_CullTransparentMesh: 1
+--- !u!114 &1149371572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149371565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb65f4356c9641141a0b88c794588d25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1169678043
 GameObject:
   m_ObjectHideFlags: 0
@@ -11839,12 +11864,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handPos: {fileID: 782628378}
   offsetPosX: -0.03
-  offsetPosY: -0.85
+  offsetPosY: 0
   offsetPosZ: -0.1
   offsetRotX: 20
   offsetRotY: 180
   offsetRotZ: 5
-  worldOffsetY: -1.05
+  worldOffsetY: 0
 --- !u!1 &1476261402
 GameObject:
   m_ObjectHideFlags: 0
