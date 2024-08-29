@@ -9,6 +9,7 @@ TagManager:
   - HandMenu
   - WorldMenu
   - Dialog
+  - Map
   layers:
   - Default
   - TransparentFX
